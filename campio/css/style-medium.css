@@ -58,3 +58,8 @@
 			bottom: auto;
 			position: relative;
 		}
+
+/* Custom styling */
+.footer {
+  background-color: white !important;
+}
