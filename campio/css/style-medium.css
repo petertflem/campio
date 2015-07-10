@@ -5,13 +5,19 @@
 */
 
 /* Main BG */
+html {
+	background-image: url("../images/header.jpg");
+}
+
+.background-image img {
+		display: block;
+}
 
 	.main-bg {
 		display: none;
 	}
 
 /* Main */
-
 	.main .image.primary {
 		display: block;
 		margin: 0 0 4em 0;
@@ -62,4 +68,8 @@
 /* Custom styling */
 .footer {
   background-color: white !important;
+}
+
+#header-image {
+  display: none;
 }
