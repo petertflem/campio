@@ -12,7 +12,7 @@
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("/images/overlay.png"), url("../images/family.jpg");
+		/*background-image: url("../images/header.jpg");*/
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
@@ -1238,3 +1238,8 @@
 						margin-left: 0;
 						padding-left: 0;
 					}
+
+/* Custom styling */
+.footer {
+  background-color: transparent !important;
+}
