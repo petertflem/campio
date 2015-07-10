@@ -1,0 +1,230 @@
+* {
+	color:white;
+}
+
+img {
+	display:block
+}
+
+a img {
+	border:none;
+}
+
+a {
+	outline: none;
+	
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	color: white;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: white;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+body {
+    background-color: #013002;
+}
+
+table.border td, table.border th {
+	border:1px solid #bbb;
+}
+
+table.paddet td, table.paddet th {
+	padding-left:5px;
+	padding-right:5px;
+}
+
+table.paddetright td, table.paddetright th {
+	padding-right:10px;
+}
+
+table.tablealigntop td, table.aligntop td, table.aligntop th {
+	vertical-align:top;
+}
+
+
+/* Slimbox modification */
+#lbOverlay {
+	z-index:1000;
+}
+#lbCenter, #lbBottomContainer {
+	z-index:1001;
+}
+
+#lbBottomContainer * {
+	color: black;
+}
+/* End Slimbox modification */
+
+
+img.whiteborder {
+	border-style:solid;
+	border-width:1px;
+	border-color: white;
+	padding:2px;
+}
+
+img.greyborder {
+	border-style:solid;
+	border-width:1px;
+	border-color: #ccc;
+	padding:2px;
+}
+
+div.linkpage {
+	padding-left:50px;
+	padding-top:50px;
+}
+
+div.pageareacontent {
+	padding-left:8px;
+	padding-right:8px;
+}
+
+
+#contentarea {
+	width:800px;
+	height:500px;
+	background-repeat:no-repeat;
+	text-align:left;
+	position:relative;
+	/*border:1px solid black;*/
+	top:50px;
+}
+
+.pagegroup_info #contentarea {
+	background:url('../images/2010/background_info.jpg');
+}
+
+.pagegroup_tipsogtriks #contentarea {
+	background:url('../images/2010/background_tipsogtriks.jpg');
+}
+
+.pagegroup_paamelding #contentarea {
+	background:url('../images/2010/background_paamelding.jpg');
+}
+
+.pagegroup_media #contentarea {
+	background:url('../images/2010/background_media.jpg');
+}
+
+#menubar {
+	position:absolute;
+	bottom:0;
+	left:120px;
+	width:560px;
+	height:42px;
+	text-align:left;
+}
+
+#menubar a {
+	float:left;
+    display:block;
+}
+
+#menubar a:hover img {
+    background-color: #814d30!important;
+}
+
+#menubar a.selected img {
+    background-color: #85643f;
+}
+
+
+#pagearea {
+	position:absolute;
+	bottom:70px;
+	left:120px;
+	width:555px;
+	height:300px;
+	text-align:left;
+	vertical-align:top;
+	overflow:auto;
+	z-index:10;
+}
+
+
+#frontpagelink {
+	position:absolute;
+	width:385px;
+	height:53px;
+	right:0;
+	top:32px;
+	cursor:pointer;
+}
+
+#facebooklink {
+	position: absolute;
+	bottom: 10px;
+	left: 729px;
+}
+
+#facebooklink a.fb_share_link {
+	color:white;
+	text-decoration:none;
+	padding:2px 0 0 20px;
+	height:16px;
+	background:url(http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif?0:26981) no-repeat top left;
+}
+
+#menu_info {
+	margin-left:46px;
+    width: 72px;
+    height: 100%;
+}
+
+#menu_tipsogtriks {
+    margin-left:38px;
+    width: 96px;
+    height: 100%;
+}
+
+#menu_media {
+    margin-left:39px;
+    width: 74px;
+    height: 100%;
+}
+
+#menu_paamelding {
+    margin-left:43px;
+    width: 96px;
+    height: 100%;
+}
+
+#shadow {
+    position:relative;
+    top:50px;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 183px;
+}
+
+#corners {
+    background-repeat: no-repeat;
+    position:absolute;
+    width: 800px;
+    height:500px;
+}
+
+input, textarea {
+    color: black;
+    margin-bottom:3px;
+}
+
+ul.feil {
+    margin-bottom:5px;
+}
+ul.feil li {
+    color: red;
+}

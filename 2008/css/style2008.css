@@ -1,0 +1,118 @@
+* {
+	color:white;
+}
+
+
+img {
+	display:block
+}
+
+a img {
+	border:none;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	color: white;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: white;
+	font-weight: bold;
+}
+
+body {
+	background-color: #140505;
+}
+
+/* Slimbox modification */
+#lbOverlay {
+	z-index:1000;
+}
+#lbCenter, #lbBottomContainer {
+	z-index:1001;
+}
+
+#lbBottomContainer * {
+	color: black;
+}
+/* End Slimbox modification */
+
+div.linkpage {
+    padding-top:90px;
+}
+
+div.linkpage img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contentarea {
+	width:800px;
+	height:500px;
+	background-repeat:no-repeat;
+	text-align:left;
+	position:relative;
+	border:1px solid black;
+	top:50px;
+}
+
+.pagegroup_info #contentarea {
+	background:url('../images/2008/bg_info.jpg');
+}
+
+.pagegroup_media #contentarea {
+	background:url('../images/2008/bg_media.jpg');
+}
+
+#pagearea {
+    padding-top:8px;
+    /*border:1px solid red;*/
+    top:8px;
+    height:335px;
+    left:8px;
+    overflow:auto;
+    position:absolute;
+    text-align:left;
+    vertical-align:top;
+    width:480px;
+    z-index:10;
+}
+
+div.pageareacontent {
+    padding-left:8px;
+	padding-right:8px;
+}
+#menu {
+    position:absolute;
+    right:0;
+    top:100px;
+    list-style:none;
+}
+
+#menu div {
+    margin-bottom:20px;
+    /*padding-left:10px;*/
+    /*padding-right:10px;*/
+}
+
+#menu div {
+    background-color:#868b27;
+}
+
+#menu div:hover {
+    background-color:#2e4a0b;
+}
+
+#frontpagelink {
+    bottom:0;
+    cursor:pointer;
+    height:146px;
+    left:0;
+    position:absolute;
+    width:100%;
+}
